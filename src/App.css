@@ -1,38 +1,209 @@
-.App {
-  text-align: center;
+* { 
+
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  
+  background: url('./images/flock-of-birds-917494.jpg');
+  background-attachment: fixed;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.global {
+
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.199);
+  box-shadow: 0px 0px 5px rgb(68, 68, 68); 
+
+}
+
+.CardUser {
+
+  margin-top: 45px;
+  width: 200px;
+
+}
+
+.CardTitle {
+
+  width: 380px;
+  margin-top: 180px;
+  margin-left: 270px;
+  position: absolute;
+
+}
+
+.NameUser {
+
+  font-family: Helvetica, Arial;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(236, 236, 236);
+
+}
+
+.TextUser {
+
+  margin-left: 20px;
+  font-family: Helvetica, Arial;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(236, 236, 236);
+
+}
+
+.UserNavigation {
+
+  margin-top: 15px;
+
+}
+
+.ImgOverlay {
+
+  position: absolute;
+
+}
+
+.Col {
+
+  height: 200px;
+  width: 232px;
+
+}
+
+@media screen and (max-width: 911px) {
+
+  .global {
+    margin-left: 50px;
+    margin-right: 50px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .CardTitle {
 
-.App-link {
-  color: #61dafb;
-}
+    margin-top: 190px;
+    width: 310px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  .NameUser {
+
+    font-size: 20px;
+
   }
+
+  .TextUser {
+
+    font-size: 11px;
+
+  }
+
+  .Col {
+
+    height: 120px;
+    width: 232px;
+  
+  }
+
+}
+
+@media screen and (max-width: 707px) {
+
+  .global {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .CardUser {
+
+    margin-top: 55px;
+    width: 150px;
+
+  }
+
+  .CardTitle {
+
+    margin-top: 160px;
+    margin-left: 220px;
+    width: 310px;
+
+  }
+
+  .NameUser {
+
+    font-size: 15px;
+
+  }
+
+  .TextUser {
+
+    font-size: 11px;
+
+  }
+
+  .Col {
+
+    height: 120px;
+    width: 232px;
+  
+  }
+
+}
+
+@media screen and (max-width: 510px) {
+
+  .global {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .CardUser {
+
+    margin-top: 25px;
+    width: 120px;
+
+  }
+
+  .CardTitle {
+
+    margin-top: 85px;
+    margin-left: 180px;
+    width: 310px;
+
+  }
+
+  .NameUser {
+
+    width: 170px;
+    font-size: 15px;
+
+  }
+
+  .TextUser {
+
+    font-size: 11px;
+    margin-top: 2px;
+    margin-left: 0px;
+
+  }
+
+  .Col {
+
+    height: 120px;
+    width: 232px;
+  
+  }
+
+}
+
+.Justify {
+  
+  text-align: justify;
+
 }
